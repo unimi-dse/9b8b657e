@@ -21,6 +21,8 @@ you can use this package typing:
 
 devtools::install_github("unimi-dse/9b8b657e")
 
+You can download all criptocurrency pair directly from the Kucoin API, look at the platform to be inspired. Be careful: some pairs are very recent so be sure to use a valid "starting date" parameter.
+
 a look to the sample script is recommended.
 
 more about developing YOUR trading strategy at https://www.rdocumentation.org/packages/quantstrat/versions/0.16.6
