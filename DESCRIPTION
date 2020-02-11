@@ -1,11 +1,17 @@
 Package: sirdan
 Type: Package
-Title: says hello world
-Version: 0.1.0
+Title: criptopairs trading strategy backtest
+Version: 0.0
 Author: dan
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Maintainer: The package maintainer <enrico.verzeroli@studenti.unimi.it>
+Description: Sirdan provides a function to retrieve Criptocurrencies data from the Kucoin API,
+    it also require the quantstrat package and provide the necessary documentation and examples to 
+    get started with cripto trading backtesting.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
+Depends: R (>= 3.6.0)
+Imports: 
+    httr, 
+    quantstrat 
+RoxygenNote: 7.0.2
