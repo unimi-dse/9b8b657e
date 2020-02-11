@@ -1,4 +1,4 @@
-# SIRDAN
+# SIRDAN  ![What is this](img/sirdan.png)
 
 ## about
 
