@@ -13,5 +13,6 @@ LazyData: true
 Depends: R (>= 3.6.0)
 Imports: 
     httr, 
-    quantstrat 
+    quantstrat,
+    xts
 RoxygenNote: 7.0.2

@@ -1,6 +1,8 @@
+require(httr)
+require(quantstrat)
+
 
 W = GetKucoinData("ADA-BTC", "1min", "2019-12-31", "2020-01-31")
-
 
 closingprice = W[,2]   #we will trade on the candle's closing price
 
