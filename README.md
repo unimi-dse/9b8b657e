@@ -8,7 +8,7 @@ a very easy way. It also provide example scripts which allow you to run backtest
 It leverage quantstrat and blotter which is built on quantmod. 
 
 
-the following is the output of the script in (9b8b657e/inst/) which is a simple trenf following strategy on ADA/BTC in 1 minute time frame.
+the following is the output of the script in (9b8b657e/inst/) which is a simple trend following strategy on ADA/BTC in 1 minute time frame.
 
 ![What is this](img/sample1.png)
 
@@ -28,7 +28,7 @@ more about developing YOUR trading strategy at https://www.rdocumentation.org/pa
 
 ## prolems
 
-this project is on his first version and in has 2 main issues: 
+this project has 2 main issues: 
 
 - high dependency: it is built on quantmod, which is based on stock trading. This brought problems in the implementation of a backtesting function with external data.
 
