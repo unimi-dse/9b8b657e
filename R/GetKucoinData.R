@@ -49,7 +49,7 @@ param <- c(symbol = criptopair, type = relevationfrequency, startAt = da, endAt 
 url <- paste0(baseurl, endpoint, '?', paste(names(param), param, sep = '=', collapse = '&'))
 
 
-x <- GET(url)
+x <- httr::GET(url)
 
 
 
@@ -68,7 +68,7 @@ data <- sapply(1:length(data), function(i) {
 
 
 datetime <- as.POSIXct(data[1,], origin = '1970-01-01')
-data <- xts(t(data[-1,]), order.by = datetime)
+data <- xts::xts(t(data[-1,]), order.by = datetime)
 
 
 return(data)
