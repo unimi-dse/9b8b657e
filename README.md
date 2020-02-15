@@ -35,4 +35,4 @@ more about developing YOUR trading strategy at https://www.rdocumentation.org/pa
 
 ## prolems
 
-- GetKucoinData: retrieves up to 1500 relevations, whey too few in order to have a useful backtest. That's due to the restful API request's constraints.
+- GetKucoinData: retrieves up to 1500 relevations, way too few in order to have a useful backtest. That's due to the restful API request's constraints.
