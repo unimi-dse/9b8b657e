@@ -3,7 +3,7 @@
 
 ## about
 
-in this first version, this package provide a function to get criptiocurrencies pairs data from the Kucoin platform in  a very easy way with the function GetKucoinData()
+in this first version, this package provide a function to get criptiocurrencies pairs price data from the Kucoin platform in  a very easy way with the function GetKucoinData()
 
 
 ## usage
@@ -15,7 +15,7 @@ devtools::install_github("unimi-dse/9b8b657e")
 You can download all criptocurrency pair directly from the Kucoin API, look at the platform to be inspired. Be careful: some pairs are very recent so be sure to use a valid "starting date" parameter.
 
 
-##getting started with backtest using the sample script
+## getting started with backtest using the sample script
 
 This folder also  provide an example script which shows you how to run a backtest on criptocurrencies data (9b8b657e/inst/).
 Before running the sample script make sure to install the following packages (that couldn't be added as a package dependencies)
