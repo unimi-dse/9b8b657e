@@ -1,4 +1,4 @@
-require(httr)
+
 
 #THERE IS A CONSTRAINT OF 1500 CANDLES IN THE REQUEST TO THE RESTFUL API...
 #A WEBSOKET CONNECTION WILL BE NEEDED...
@@ -28,8 +28,8 @@ require(httr)
 #'
 GetKucoinData <- function(criptopair, relevationfrequency, startdate, enddate ){
 
-
-
+require(httr)
+require(xts)
 
 baseurl <- 'https://api.kucoin.com'
 
